@@ -13,7 +13,7 @@ default_args = {
 
 @dag(
     start_date=datetime(2024,9,9),
-    schedule_interval=timedelta(minutes=5),
+    schedule_interval=timedelta(minutes=1),
     default_args=default_args,
     tags=["Folder:HS", "Application:ARCH", "SubApplication:INFRA"],
     catchup=False
