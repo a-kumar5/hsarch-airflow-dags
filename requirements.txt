@@ -1,0 +1,2 @@
+minio==7.2.8
+apache-airflow-providers-apprise==1.4.0
