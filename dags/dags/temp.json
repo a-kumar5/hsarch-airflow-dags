@@ -1,0 +1,23 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "{{app_title}}",
+            "weight": "Bolder",
+            "separator": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "{{app_body}}",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "Hello {{ target }}, how are you {{ whence }}?",
+            "wrap": true
+        }
+    ]
+}

@@ -1,5 +1,0 @@
-###AYUSH DOC
-
-##DOC
-
-`doc`
